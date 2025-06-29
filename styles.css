@@ -1,0 +1,31 @@
+:root {
+  --border-debug: 1px solid red;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 75vh;
+  border: var(--border-debug);
+}
+
+.flower-container {
+  display: flex;
+  border: var(--border-debug);
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.ui-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 1em;
+  padding: 1em;
+}
