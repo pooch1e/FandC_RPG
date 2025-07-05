@@ -20,6 +20,14 @@ html {
   border: var(--border-debug);
   padding: 2rem;
   margin: 2rem;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: auto;
+}
+
+#flowerContainer > img {
+  height: 25vh;
+  
 }
 
 .ui-container {
