@@ -8,8 +8,9 @@ const growthScore = document.getElementById('growth');
 const feedButton = document.getElementById('feedButton');
 
 export const handleWaterButtonClick = () => {
-  const waterButton = document.getElementById('waterButton');
-  waterButton.addEventListener('click', (e) => {
-    console.log(e.target, 'water button was clicked');
+  const seedButton = document.getElementById('seedButton');
+  seedButton.addEventListener('click', () => {
+    // console.log(e.target, 'water button was clicked');
+    plantSeed();
   });
 };
