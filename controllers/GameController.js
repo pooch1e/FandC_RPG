@@ -7,11 +7,20 @@ const growthScore = document.getElementById('growth');
 
 const feedButton = document.getElementById('feedButton');
 
+const handleDisplayPot = () => {
+  //display pot on screen
+  const flowerContainer = document.getElementById('flowerContainer');
+  const potPlant = document.createElement('img');
+  potPlant.src = '../public/assets/flowerPot/Flower Pot 4 - RED.png';
+  potPlant.alt = 'pixel art image of a pot';
+  flowerContainer.appendChild(potPlant);
+};
+
 export const handleSeedButtonClick = () => {
   const seedButton = document.getElementById('seedButton');
   seedButton.addEventListener('click', () => {
-    // console.log(e.target, 'water button was clicked');
     const seed = plantSeed();
+    handleDisplayPot();
     return seed;
   });
 };
