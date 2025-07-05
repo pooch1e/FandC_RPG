@@ -1,7 +1,9 @@
-class HealingPotion {
-  constructor(name, id, amountToHeal) {
-    this.name = name;
-    this.id=id;
-    this.amountToHeal = amountToHeal;
+class WateringCan {
+  constructor(capacity = 100) {
+    this.capacity = capacity;
   }
+
+  refillWateringCan(water) {
+    this.capacity = 100;
+  } 
 }

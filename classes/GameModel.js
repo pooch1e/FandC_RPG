@@ -1,10 +1,6 @@
 const Flower = require('./Flower');
-const playerFlower = new Flower(20, 20, 20, 0)
 
-const init = () => {
-
-}
-
-const gameState = () = { 
-  init();
-}
+export const plantSeed = () => {
+  const seed = new Flower(100, 100, 0, 0);
+  console.log('Planted a seed');
+};

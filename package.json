@@ -1,0 +1,24 @@
+{
+  "name": "fandc_rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooch1e/FandC_RPG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pooch1e/FandC_RPG/issues"
+  },
+  "homepage": "https://github.com/pooch1e/FandC_RPG#readme",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
