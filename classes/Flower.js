@@ -13,11 +13,20 @@ export class Flower {
     if (this.currentHp >= this.maxHp) {
       this.currentHp = 100;
     }
+    if (this.currentHp < 0) {
+      this.currentHp = 0;
+    }
     console.log(`Current health points is: ${this.currentHp}`);
   }
 
   updateNutrition(nutrition) {
     this.nutrition += nutrition;
+    if (this.nutrition >= 100) {
+      this.nutrition = 100;
+    }
+    if (this.nutrition < 0) {
+      this.nutrition = 0;
+    }
     console.log(`Current nutrition is: ${this.nutrition}`);
   }
 
