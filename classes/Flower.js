@@ -1,6 +1,6 @@
 //tracks growth, hydration, nutrition, health
 export class Flower {
-  constructor(currentHp, maxHp, nutrition, growth) {
+  constructor(currentHp = 100, maxHp = 100, nutrition = 0, growth = 0) {
     //init state
     this.currentHp = currentHp;
     this.maxHp = maxHp;

@@ -7,10 +7,11 @@ const growthScore = document.getElementById('growth');
 
 const feedButton = document.getElementById('feedButton');
 
-export const handleWaterButtonClick = () => {
+export const handleSeedButtonClick = () => {
   const seedButton = document.getElementById('seedButton');
   seedButton.addEventListener('click', () => {
     // console.log(e.target, 'water button was clicked');
-    plantSeed();
+    const seed = plantSeed();
+    return seed;
   });
 };

@@ -2,10 +2,9 @@
   "name": "fandc_rpg",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS='--experimental-vm-modules' npx jest"
   },
   "repository": {
     "type": "git",
@@ -14,12 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/pooch1e/FandC_RPG/issues"
   },
   "homepage": "https://github.com/pooch1e/FandC_RPG#readme",
   "devDependencies": {
-    "jest": "^30.0.4"
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4"
   }
 }

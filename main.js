@@ -1,4 +1,4 @@
 //index
-import { handleWaterButtonClick } from './controllers/GameController.js';
+import { handleSeedButtonClick } from './controllers/GameController.js';
 
-handleWaterButtonClick();
+handleSeedButtonClick();
