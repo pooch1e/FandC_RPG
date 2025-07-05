@@ -1,5 +1,5 @@
 //tracks growth, hydration, nutrition, health
-class Flower {
+export class Flower {
   constructor(currentHp, maxHp, nutrition, growth) {
     //init state
     this.currentHp = currentHp;
@@ -10,17 +10,16 @@ class Flower {
 
   updateCurrentHp(hp) {
     this.currentHp += hp;
-    console.log(`Current health points is: ${this.currentHp}`)
+    console.log(`Current health points is: ${this.currentHp}`);
   }
 
-    updateNutrition(nutrition) {
+  updateNutrition(nutrition) {
     this.nutrition += nutrition;
-    console.log(`Current nutrition is: ${this.nutrition}`)
+    console.log(`Current nutrition is: ${this.nutrition}`);
   }
 
   updateGrowth(growth) {
     this.growth += growth;
-    console.log(`Current growth is: ${this.growth}`)
+    console.log(`Current growth is: ${this.growth}`);
   }
-
 }
