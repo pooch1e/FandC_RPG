@@ -10,6 +10,9 @@ export class Flower {
 
   updateCurrentHp(hp) {
     this.currentHp += hp;
+    if (this.currentHp >= this.maxHp) {
+      this.currentHp = 100;
+    }
     console.log(`Current health points is: ${this.currentHp}`);
   }
 
