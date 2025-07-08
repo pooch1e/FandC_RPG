@@ -24,3 +24,10 @@ export const handleSeedButtonClick = () => {
     return seed;
   });
 };
+
+export const handleWatterButtonClick = () => {
+  const waterButton = document.getElementById('waterButton');
+  waterButton.addEventListener('click', () => {
+    waterPlant();
+  });
+};
